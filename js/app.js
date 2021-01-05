@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  const movies = [];
+  let movies = [];
 
   const renderMovies = function() {
     $('#listings').empty();
@@ -55,6 +55,4 @@
       $('.modal-trigger').leanModal();
     }
   };
-
-  // ADD YOUR CODE HERE
 })();
